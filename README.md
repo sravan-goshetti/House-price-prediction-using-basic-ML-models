@@ -1,35 +1,32 @@
-**House price pridiction using basic ML modles**
-<br>
+# House Price Prediction using Basic ML Models
 
-- This project is about the using basic ML models to do prediction of house price upon considering diffrent aspects.
-<br>
+This project focuses on predicting residential house prices by analyzing various property features. By utilizing fundamental Machine Learning regression techniques, the model identifies key factors that influence property value.
 
-- To run the notebook, install the following :
-  <br>
-  jupyter/jupyter notebook
-  <br>
- libraries : numpy, pandas, matplotli,seaborn,scikit-learn, imbalanced-learns,statsmodels
-<br>
-How to run :
-  <br>
-  Install dependencies: pip install -r requirements.txt
-<br>
-  Open notebook.ipynb in Jupyter.
+## Project Overview
+Predicting real estate prices is a classic regression problem. This repository demonstrates a complete end-to-end machine learning workflow, from raw data exploration to model evaluation.
 
-  
+## Tech Stack & Requirements
+To run this notebook, you need **Jupyter Notebook** and the following Python libraries:
 
-  The project follows a standard Machine Learning pipeline:
+* **Data Manipulation:** `numpy`, `pandas`
+* **Visualization:** `matplotlib`, `seaborn`
+* **Machine Learning:** `scikit-learn`, `statsmodels`, `imbalanced-learn`
 
+###  How to Run
+1. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
 
-- Exploratory Data Analysis (EDA): Visualizing distributions and correlations.
+## Methodology
 
-- Preprocessing: Scaling numerical features and encoding categorical variables.
+ The project follows a standard Machine Learning pipeline:
+* Exploratory Data Analysis (EDA): Visualizing distributions and correlations.
 
-- Model Selection: Implementing models like Linear Regression, Decision Trees, or Random Forests.
+* Preprocessing: Scaling numerical features and encoding categorical variables.
 
-- Evaluation: Checking performance using R-squared and Mean Squared Error.
+* Model Selection: Implementing models like Linear Regression, Decision Trees, or Random Forests.
 
-<br>
+* Evaluation: Checking performance using R-squared and Mean Squared Error.
 
-
-
+##  Future Improvements
+* Implement Hyperparameter Tuning using GridSearchCV to further improve accuracy.
